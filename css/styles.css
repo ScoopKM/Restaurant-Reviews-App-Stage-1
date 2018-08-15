@@ -28,6 +28,18 @@ a:hover, a:focus {
 a img{
 	border: none 0px #fff;
 }
+
+.website-title {
+	padding: 25px 0 0 0;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: row; */
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
@@ -116,6 +128,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+	display: inline;
 }
 .filter-options select {
   background-color: white;
@@ -136,6 +149,8 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
