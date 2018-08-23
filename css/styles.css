@@ -1,6 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
+:focus {
+	outline-color: green;
+	outline-width: thick;
+}
+
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: white;
+	color: white;
+	padding: 8px;
+	z-index: 100px;}
+
+	.skip-link:focus {
+		top: 0;
+	}
+
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
