@@ -27,11 +27,14 @@
   </header>
   <!-- End header -->
 
+  <!-- Not for sure why, when the link is focused that it doens't appear on screen.-->
+  <a href="#restaurant-name" class="skip-link"> Skip the map, and head straight to the restaurant info </a>
+
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" aria-label="Map">
+      <div id="map" role="Application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -40,7 +43,7 @@
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+      <table tabindex="0" id="restaurant-hours"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
