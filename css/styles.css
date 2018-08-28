@@ -1,4 +1,4 @@
-@charset "utf-8";
+ 	@charset "utf-8";
 /* CSS Document */
 
 :focus {
@@ -186,7 +186,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -272,7 +272,7 @@ nav h1 a {
   width: 50%;
 }
 #reviews-container {
-  padding-bottom: 80px;
+  padding-top: 0;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -288,13 +288,12 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  position: relative;
   width: 85%;
 }
 #reviews-list li p {
