@@ -8,7 +8,6 @@
 
 .skip-link {
 	position: absolute;
-	top: -40px;
 	left: 0;
 	background: white;
 	color: white;
@@ -309,6 +308,12 @@ nav h1 a {
 @media screen and (max-width: 396px) {
 	.website-title {
 		padding-top: 10px;
+	}
+}
+
+@media screen and (min-width: 331px) {
+	.skip-link {
+		top: -40px;
 	}
 }
 
