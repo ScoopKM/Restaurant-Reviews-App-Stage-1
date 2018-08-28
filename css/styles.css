@@ -8,6 +8,7 @@
 
 .skip-link {
 	position: absolute;
+	top: -40px;
 	left: 0;
 	background: white;
 	color: white;
